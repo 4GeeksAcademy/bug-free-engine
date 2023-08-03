@@ -24,7 +24,9 @@ if (condicion) { // ! negacion - refactorizar
 
 // operador ternario - expresiones
 
-const condicionTernaria = condicion == condicion2 ? true + 1 : add(3, 4);
+const condicionTernaria = condicion == condicion2 ?
+     condicion3 == 4 ?
+         expresion : func("dos") : add(3, 4);
 
 
 
