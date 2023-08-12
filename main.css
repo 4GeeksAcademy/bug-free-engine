@@ -3,10 +3,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-p {
-    color: blue;
-}
-
-p {
-    color: green;
+#triangle {
+	background-color: #003BDE;
+    clip-path: polygon(100% 0%, 0% 0%, 50% 100%);
+    width: 65%;
+    height: 65%;
 }

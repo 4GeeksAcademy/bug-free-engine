@@ -7,7 +7,7 @@ let multiplicarNumeros = (num1, num2) => {
     return "Ah ocurrido un error!"
 }
 
-const sumarCallback = (cb, num3) => {
+const sumarCallback = (num3, cb) => {
     console.log("inicia la suma!")
     let res = num3 + cb(3, 7)
     return res + " un saludo!"
